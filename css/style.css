@@ -1,1 +1,64 @@
-/* Denna fil skall innehålla din CSS kod */
+#container{
+display:grid ;
+height: 150vh;
+grid-template-areas: 
+'hd hd hd hd'
+'nv nv nv nv'
+'as sec sec sec'
+'as sec sec sec'
+'ft ft ft ft';
+
+margin: auto;
+background-color: rgb(255, 255, 255);
+gap: 1px;
+padding: 3px;
+grid-template-rows: 1fr 0.5fr 6fr 1fr 3fr;
+
+}
+
+header{
+    grid-area: hd;
+    background-color: #9b59b6;
+}
+
+nav{
+    grid-area: nv;
+    background-color: #9b59b6;
+    color: black;
+}
+
+section{
+    grid-area: sec;
+    background-color: #9b59b6;
+}
+
+aside{
+    grid-area: as;
+    background-color: #9b59b6;
+}
+
+Footer{
+    grid-area: ft;
+    background-color: #9b59b6;
+}
+
+.nav{
+    border: 2px;
+    display: flex;
+    align-items: stretch;
+    font-size: 20px;
+    color: black;
+    
+
+}
+
+.nav div{
+    width: 285px;
+    height: 100px;
+    background-color:#9b59b6;
+    border-radius: 5px;
+    gap: 5px;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+}
