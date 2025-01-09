@@ -4,22 +4,22 @@ height: 150vh;
 grid-template-areas: 
 'hd hd hd hd'
 'nv nv nv nv'
-'as as sec sec'
-'as as sec sec'
+'as sec sec sec'
+'as sec sec sec'
 'ft ft ft ft';
 
 margin: auto;
-background-color: #efd5f9;
+background-color: #FFFF;
 
 padding: 3px;
-grid-template-rows: 1fr 0.5fr 6fr 1fr 2fr;
+grid-template-rows: 0.5fr 0.25fr 6fr 1fr 2fr;
 gap: 2px;
 
 }
 
 header{
     grid-area: hd;
-    background-color: #cfa0e0;
+    background-color: #efd5f9;
     display: flex;
     align-items: center;
     width: 100%;
@@ -28,20 +28,25 @@ header{
 }
 
 #title{
-    margin-left: 6%;
+    margin-left: 1%;
+    size: 50px;
 
 }
 #search{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+#frame{
+    padding-left: 0cm;
 }
 
 
 h1{
     color:  #8c29b3;
-    padding: 20px;
+    padding: 5px;
     margin-left: 80px;
-    font-size: 40px;
+    font-size: 55px;
     
 }
 
@@ -51,16 +56,19 @@ h2{
     font-size: 25px;
 }
 
+#kontakth2{
+    margin-left: 0px;
+}
 nav{
     grid-area: nv;
-    background-color: #cfa0e0;
+    background-color: #efd5f9;
     color: black;
 }
 
 
 section{
     grid-area: sec;
-    background-color: #efd5f9;
+    background-color: #ffffff;
 
     
 }
@@ -73,11 +81,11 @@ aside{
 
 Footer{
     grid-area: ft;
-    background-color: #cfa0e0;
+    background-color: #efd5f9;
 }
 
 nav a:hover {
-color: #8c29b3;
+color: #ffffff;
 }
 
 .nav{
@@ -92,28 +100,30 @@ color: #8c29b3;
 
 .nav div{
     width: 285px;
-    height: 100px;
-    background-color:#cfa0e0;
+    height: 50px;
+    background-color:#efd5f9;
     border-radius: 5px;
     gap: 5px;
     text-align: center;
-    line-height: 100px;
+    line-height: 50px;
     color: black;
 }
 
 
 
 input{
-    width: 550px;
-    height: 50px;
+    width: 500px;
+    height: 30px;
     border-radius: 5px;
-    margin-right: 0%;
+    margin-left: 0px;
+    
 
 }
 
 a{
     color: black;
     text-decoration: dashed;
+    font-size: 20px;
 }
 
 #img2{
@@ -124,6 +134,7 @@ a{
 #varukorg{
     width: 50px;
     height: 50px;
+    color: white;
 }
 
 #h3{
@@ -135,12 +146,14 @@ a{
     margin-top: 100px;
     background-color: #8c29b3;
     font-size: 40px;
+    color: white;
 }
 
 h4{
     border:40px solid #efd5f9;
     background-color: #efd5f9;
     margin-top: 0px;
+    font-size: 25px;
 }
 
 .footer{
@@ -157,7 +170,7 @@ h4{
 }
 
 ul{
-    list-style: none;
+    list-style-type: none;
 }
 
 #footerp{
@@ -169,13 +182,18 @@ body{
     margin: 0%;
 }
 
+#kontakta_oss{
+    margin-right: 20%;
+    padding-right: 450px;
+}
 
 
 .student{
     font-family: Arial;
     margin: 0;
-    padding: 10px;
-    background-color: #f0f8ff;
+    padding: 15px;
+    gap: 5px;
+    background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-start;
@@ -185,7 +203,7 @@ body{
     background-color: white;
     border: 1px solid;
     border-radius: 5px;
-    margin: 15px;
+    margin: 30px;
     text-align: center;
     padding: 15px;
     width: 200px;
@@ -228,9 +246,18 @@ border-radius: 3px;
 font-size: 15px;
 }
 
+#top_pick{
+    border: 50px;
+    padding-bottom: 95%;
+    height: 30px;
+    width: 30px;
+    list-style-type: none;
+
+}
 .card button:hover{
     background-color: #cfa0e0;
 }
+
 
 .container2{
     display:grid ;
@@ -252,11 +279,16 @@ font-size: 15px;
 }
 
 #h4sida3{
-    border: 50px solid rgb(255, 255, 255);
+    border: 50px solid rgb(234, 213, 236);
     text-align: center;
-    width: 455px;
+    width: 410px;
     height: 100px;
-    background-color: white;
+    background-color: rgb(234, 213, 236);
     margin-left: 5px;
     margin-top: 30px;
+    border-radius: 10px;
+}
+
+#h3först{
+    font-size: 25px;
 }
