@@ -68,7 +68,6 @@ section{
 aside{
     grid-area: as;
     background-color:#efd5f9;
-    ;
 }
 
 
@@ -107,7 +106,7 @@ color: #8c29b3;
 input{
     width: 550px;
     height: 50px;
-    border-radius: 28px;
+    border-radius: 5px;
     margin-right: 0%;
 
 }
@@ -157,18 +156,29 @@ h4{
     width: 500px;
 }
 
+ul{
+    list-style: none;
+}
+
+#footerp{
+    padding: 20px;
+    gap: 5px;
+}
+
 body{
     margin: 0%;
 }
 
+
+
 .student{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     margin: 0;
     padding: 10px;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     display: flex;
     flex-wrap: wrap;
-    justify-content:flex-start
+    justify-content:flex-start;
 }
 
 .card{
@@ -220,4 +230,33 @@ font-size: 15px;
 
 .card button:hover{
     background-color: #cfa0e0;
+}
+
+.container2{
+    display:grid ;
+    height: 150vh;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'nv nv nv nv'
+    'sec sec sec sec'
+    'sec sec sec sec'
+    'ft ft ft ft';
+    
+    margin: auto;
+    background-color: #efd5f9;
+    
+    padding: 3px;
+    grid-template-rows: 1fr 0.5fr 6fr 1fr 2fr;
+    gap: 2px;
+
+}
+
+#h4sida3{
+    border: 50px solid rgb(255, 255, 255);
+    text-align: center;
+    width: 455px;
+    height: 100px;
+    background-color: white;
+    margin-left: 5px;
+    margin-top: 30px;
 }
