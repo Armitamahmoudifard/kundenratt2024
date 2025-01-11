@@ -42,7 +42,7 @@ header{
 
 
 h1{
-    color:  #8c29b3;
+    color:  #6d0197;
     padding: 5px;
     margin-left: 80px;
     font-size: 55px;
@@ -303,8 +303,8 @@ font-size: 15px;
     width: 130px;
 }
 
-#genrer:hover{
-    color: #8c29b3;
+.genrer:hover{
+    color: #6d0197;
     border: 1px solid;
     border-radius: 200px;
     padding: 10px;
@@ -335,4 +335,11 @@ font-size: 15px;
 
 li:hover{
     color: #FFFF;
+}
+
+
+#logo{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
 }
