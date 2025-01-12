@@ -263,24 +263,7 @@ font-size: 15px;
 }
 
 
-.container2{
-    display:grid ;
-    height: 150vh;
-    grid-template-areas: 
-    'hd hd hd hd'
-    'nv nv nv nv'
-    'sec sec sec sec'
-    'sec sec sec sec'
-    'ft ft ft ft';
-    
-    margin: auto;
-    background-color: #efd5f9;
-    
-    padding: 3px;
-    grid-template-rows: 1fr 0.5fr 6fr 1fr 2fr;
-    gap: 2px;
 
-}
 
 #h4sida3{
     border: 2px dashed rgb(75, 15, 81);
